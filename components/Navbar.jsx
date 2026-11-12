@@ -25,7 +25,8 @@ export default function Navbar() {
         <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-1.5 text-center text-xs text-amber-300 flex items-center justify-center gap-1.5">
           <AlertCircle className="h-3.5 w-3.5 flex-shrink-0" />
           <span>
-            Supabase is not yet configured. Please add your real Project URL and anon key to <code className="bg-black/30 px-1 py-0.5 rounded font-mono">.env.local</code>.
+            Supabase is not yet configured. Please add your real Project URL and anon key to{' '}
+            <code className="bg-black/30 px-1 py-0.5 rounded font-mono">.env.local</code> or your deployment Environment Variables and redeploy.
           </span>
         </div>
       )}
